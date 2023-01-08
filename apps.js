@@ -51,11 +51,11 @@ function contact (event) {
 
 function toggleModal() {
     if (isModalOpen) {
-        isModelOpen = false
-        return document.body.classList.remove("modal--open")
+        isModalOpen = false;
+        return document.body.classList.remove("modal--open");
     }
-    isModalOpen = true
-    document.body.classlist += " modal--open"
+    isModalOpen = true;
+    document.body.classlist += " modal--open";
 }
 
 
